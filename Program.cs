@@ -1,4 +1,5 @@
 ﻿using System;
+using tkt_tracker.Controllers;
 
 namespace tkt_tracker
 {
@@ -6,7 +7,7 @@ namespace tkt_tracker
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new TicketController().Run();
         }
     }
 }
